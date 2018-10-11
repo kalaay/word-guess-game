@@ -1,7 +1,41 @@
-body{
-    background-size: cover;
-    background-image: url("/Users/owner/BOOTCAMP/word-guess-game/gamebackg.jpg");
-
-
+body {
+    background-color: rgb(123, 182, 238);
+    padding-top: 20px;
+    font-family: Comic sans, Courier, monospace;
+    color: white;
+    text-shadow: 0 0 2px black, -1px -1px 2px black, 1px 0 2px black, 1px 1px 2px black;
+/* background: url('/Users/owner/BOOTCAMP/TMB/Hangman-Game/assets/images/graffitiBack.jpg') no-repeat;
+*/  
+background-size: cover;
+}
+.container { 
+    text-align: center;
+    
+}
+h1,h2,h3,
+h4,h5,h6 {
+    padding: 5px;
+    background-color: rgba(12,51,114,.6);
+}
+#title-image, #gameover-image, #youwin-image{ 
+    display: block;
+    margin: 0 auto;
 }
 
+#currentWord {
+    letter-spacing: 10px;
+}
+
+#pressKeyTryAgain, 
+#gameover-image, 
+#youwin-image { display: none;
+width: 100px;
+}
+.gameplay-column {
+    padding-top: 20px;
+    border: 3px dotted rgb(236, 9, 9);
+    text-align: center;
+    margin-top: 20px;
+    min-height: 500px;
+    background-color: rgba(12, 209, 62, 0.3);
+}
