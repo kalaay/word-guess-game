@@ -1,7 +1,7 @@
 
 'use strict';
 
-var selectableWords =           // Word list
+var selectableWords =           
     [
         "WHITNEY",
         "MICHAEL",
@@ -14,14 +14,14 @@ var selectableWords =           // Word list
         "JOE"
     ];
 
-const maxTries = 10;            // Maximum number of tries player has
+const maxTries = 10;            
 
-var guessedLetters = [];        // Stores the letters the user guessed
-var currentWordIndex;           // Index of the current word in the array
-var guessingWord = [];          // This will be the word we actually build to match the current word
-var remainingGuesses = 0;       // How many tries the player has left
-var hasFinished = false;        // Flag for 'press any key to try again'     
-var wins = 0;                   // How many wins has the player racked up
+var guessedLetters = [];        
+var currentWordIndex;           
+var guessingWord = [];          
+var remainingGuesses = 0;       
+var hasFinished = false;            
+var wins = 0;                   
 
 
 // Reset our game-level variables
